@@ -1,7 +1,5 @@
 tasks:
   - init: |
-      curl https://docs.reach.sh/reach -o reach
-      chmod +x reach
       ./reach update
     command: |
       ./reach run
