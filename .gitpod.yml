@@ -1,0 +1,8 @@
+tasks:
+  - init: |
+      yarn install
+    command: |
+      echo 'TODO: start app'
+vscode:
+  extensions:
+    - reachsh.reach-ide
