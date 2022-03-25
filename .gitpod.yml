@@ -1,8 +1,7 @@
 tasks:
   - init: |
-      yarn install
+      curl https://docs.reach.sh/reach -o reach
+      chmod +x reach
+      ./reach update
     command: |
-      echo 'TODO: start app'
-vscode:
-  extensions:
-    - reachsh.reach-ide
+      ./reach run
